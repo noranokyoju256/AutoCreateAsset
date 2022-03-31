@@ -1,0 +1,16 @@
+{
+    "name": "AutoCreateAsset.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d7ef4a8f43c04c340b0bb0aff1388c4d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -116,10 +116,10 @@ namespace Noranokyoju.AutoCreateAsset
             foreach (var scriptableType in targetTypes)
             {
                 var attribute = scriptableType.GetCustomAttribute<AutoCreateAssetAttribute>();
-                if (attribute == null) return;
+                if (attribute == null) continue;
 
                 var path = attribute.Path;
-                if (File.Exists(path)) return;
+                if (File.Exists(path)) continue;
                 
                 var obj = ScriptableObject.CreateInstance(scriptableType);
                 AssetDatabase.CreateAsset(obj, path);
